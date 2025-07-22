@@ -1,0 +1,26 @@
+Erkannte Personen: ['Leon']
+Erkannte Daten: []
+
+ Extraktionsergebnis:
+{
+  "To-Dos": [
+    "Kunden Onboarding",
+    "Berechnung von Customer Acquisition Cost (CAC)",
+    "Further discussion about Outreach Tour and Woodpacker with Leon regarding Fundraising"
+  ],
+  "Deadlines": null,
+  "Discussed Themes or Technical Terms": [
+    "Onboarding",
+    "Finanzplan",
+    "Spalten (Columns)",
+    "Medium",
+    "Formeln (Formulas)",
+    "Customer Acquisition Cost (CAC)",
+    "Fundraising",
+    "Outreach Tour",
+    "Woodpacker"
+  ],
+  "Open Questions": [
+    "No specific open questions in the provided text."
+  ]
+}
