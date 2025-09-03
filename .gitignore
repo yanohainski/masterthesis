@@ -1,0 +1,10 @@
+# Ignore virtualenv
+.venv/
+
+# Ignore text and audio files
+*.txt
+*.wav
+
+# Optional: Python cache
+__pycache__/
+*.pyc
