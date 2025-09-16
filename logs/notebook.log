@@ -53,3 +53,59 @@
 2025-09-11 13:08:45,488 - pseudo_streaming_logger - DEBUG - [worker] Reached max_chunks, stopping
 2025-09-11 13:08:45,489 - pseudo_streaming_logger - INFO - [worker] Exiting worker loop
 2025-09-11 13:08:45,490 - pseudo_streaming_logger - INFO - Pseudo_streaming ended
+2025-09-12 10:28:27,379 - pseudo_streaming_logger - INFO - Starting transcription service
+2025-09-12 10:28:27,380 - pseudo_streaming_logger - INFO - Processing chunk chunk_0.wav
+2025-09-12 10:28:27,382 - pseudo_streaming_logger - INFO - Starting recording of 10s audio chunk to chunk_0.wav
+2025-09-12 10:28:27,382 - pseudo_streaming_logger - DEBUG - Executing ffmpeg command: ffmpeg -f avfoundation -i :0 -t 10 -y chunk_0.wav
+2025-09-12 10:28:38,734 - pseudo_streaming_logger - INFO - Successfully recorded audio chunk to chunk_0.wav
+2025-09-12 10:28:38,736 - pseudo_streaming_logger - DEBUG - [recorder] Put chunk_0.wav in queue
+2025-09-12 10:28:38,736 - pseudo_streaming_logger - INFO - [worker] Transcribing chunk_0.wav
+2025-09-12 10:28:38,737 - pseudo_streaming_logger - INFO - Processing chunk chunk_1.wav
+2025-09-12 10:28:38,738 - pseudo_streaming_logger - INFO - Transcribing audio chunk: chunk_0.wav
+2025-09-12 10:28:38,738 - pseudo_streaming_logger - INFO - Starting recording of 10s audio chunk to chunk_1.wav
+2025-09-12 10:28:38,739 - pseudo_streaming_logger - DEBUG - Sending POST request to http://localhost:8080/transcribe/file
+2025-09-12 10:28:38,739 - pseudo_streaming_logger - DEBUG - Executing ffmpeg command: ffmpeg -f avfoundation -i :0 -t 10 -y chunk_1.wav
+2025-09-12 10:28:49,129 - pseudo_streaming_logger - INFO - Successfully transcribed chunk: chunk_0.wav
+2025-09-12 10:28:49,131 - pseudo_streaming_logger - DEBUG - Transcription result:  und erzähle ein bisschen darüber, in der Hoffnung...
+2025-09-12 10:28:49,133 - pseudo_streaming_logger - DEBUG - Starting get_llm_response function.
+2025-09-12 10:28:49,134 - pseudo_streaming_logger - DEBUG - Attempting to get API key and URL.
+2025-09-12 10:28:49,134 - pseudo_streaming_logger - DEBUG - Retrieved key from userdata: Key found
+2025-09-12 10:28:49,135 - pseudo_streaming_logger - DEBUG - Using default URL: https://chat-ai.academiccloud.de/v1/
+2025-09-12 10:28:49,135 - pseudo_streaming_logger - DEBUG - API Key status: Set
+2025-09-12 10:28:49,136 - pseudo_streaming_logger - DEBUG - Base URL: https://chat-ai.academiccloud.de/v1/
+2025-09-12 10:28:49,137 - pseudo_streaming_logger - DEBUG - Initializing OpenAI client.
+2025-09-12 10:28:49,151 - pseudo_streaming_logger - DEBUG - OpenAI client initialized successfully.
+2025-09-12 10:28:49,152 - pseudo_streaming_logger - DEBUG - Making API request.
+2025-09-12 10:28:49,223 - pseudo_streaming_logger - INFO - Successfully recorded audio chunk to chunk_1.wav
+2025-09-12 10:28:49,224 - pseudo_streaming_logger - DEBUG - [recorder] Put chunk_1.wav in queue
+2025-09-12 10:28:49,224 - pseudo_streaming_logger - INFO - [recorder] Finished recording loop
+2025-09-12 10:28:51,958 - pseudo_streaming_logger - DEBUG - API request completed.
+2025-09-12 10:28:51,959 - pseudo_streaming_logger - INFO - LLM response time: 2.8055 seconds
+2025-09-12 10:28:51,960 - pseudo_streaming_logger - DEBUG - Prompt tokens: 150, Generated tokens: 55
+2025-09-12 10:28:51,960 - pseudo_streaming_logger - DEBUG - Metadata created.
+2025-09-12 10:28:51,961 - pseudo_streaming_logger - INFO - [worker] Updated rolling summary (chunks processed: 1)
+2025-09-12 10:28:51,961 - pseudo_streaming_logger - DEBUG - [worker] Removed temporary chunk file chunk_0.wav
+2025-09-12 10:28:51,962 - pseudo_streaming_logger - INFO - [worker] Transcribing chunk_1.wav
+2025-09-12 10:28:51,962 - pseudo_streaming_logger - INFO - Transcribing audio chunk: chunk_1.wav
+2025-09-12 10:28:51,963 - pseudo_streaming_logger - DEBUG - Sending POST request to http://localhost:8080/transcribe/file
+2025-09-12 10:29:03,061 - pseudo_streaming_logger - INFO - Successfully transcribed chunk: chunk_1.wav
+2025-09-12 10:29:03,061 - pseudo_streaming_logger - DEBUG - Transcription result:  und dann Medium. In der Hoffnung, dass es dann be...
+2025-09-12 10:29:03,062 - pseudo_streaming_logger - DEBUG - Starting get_llm_response function.
+2025-09-12 10:29:03,063 - pseudo_streaming_logger - DEBUG - Attempting to get API key and URL.
+2025-09-12 10:29:03,063 - pseudo_streaming_logger - DEBUG - Retrieved key from userdata: Key found
+2025-09-12 10:29:03,064 - pseudo_streaming_logger - DEBUG - Using default URL: https://chat-ai.academiccloud.de/v1/
+2025-09-12 10:29:03,064 - pseudo_streaming_logger - DEBUG - API Key status: Set
+2025-09-12 10:29:03,065 - pseudo_streaming_logger - DEBUG - Base URL: https://chat-ai.academiccloud.de/v1/
+2025-09-12 10:29:03,066 - pseudo_streaming_logger - DEBUG - Initializing OpenAI client.
+2025-09-12 10:29:03,079 - pseudo_streaming_logger - DEBUG - OpenAI client initialized successfully.
+2025-09-12 10:29:03,080 - pseudo_streaming_logger - DEBUG - Making API request.
+2025-09-12 10:29:21,950 - pseudo_streaming_logger - INFO - Pseudo_streaming stopped by user via KeyboardInterrupt
+2025-09-12 10:29:23,953 - pseudo_streaming_logger - INFO - Pseudo_streaming ended
+2025-09-12 10:31:23,820 - pseudo_streaming_logger - DEBUG - API request completed.
+2025-09-12 10:31:23,821 - pseudo_streaming_logger - INFO - LLM response time: 140.7363 seconds
+2025-09-12 10:31:23,822 - pseudo_streaming_logger - DEBUG - Prompt tokens: 209, Generated tokens: 57
+2025-09-12 10:31:23,823 - pseudo_streaming_logger - DEBUG - Metadata created.
+2025-09-12 10:31:23,824 - pseudo_streaming_logger - INFO - [worker] Updated rolling summary (chunks processed: 2)
+2025-09-12 10:31:23,825 - pseudo_streaming_logger - DEBUG - [worker] Removed temporary chunk file chunk_1.wav
+2025-09-12 10:31:23,827 - pseudo_streaming_logger - DEBUG - [worker] Reached max_chunks, stopping
+2025-09-12 10:31:23,829 - pseudo_streaming_logger - INFO - [worker] Exiting worker loop
