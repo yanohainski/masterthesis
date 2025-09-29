@@ -1,0 +1,202 @@
+2025-09-26 11:28:45,699 - INFO - Starting audio send process
+2025-09-26 11:28:45,699 - INFO - [3ceed6e1] Starting fire-and-forget audio upload: Katzenkafe.m4a → http://127.0.0.1:8000/api/stt/transcribe/
+2025-09-26 11:28:45,700 - ERROR - [3ceed6e1] File not found: Katzenkafe.m4a
+2025-09-26 11:28:45,700 - ERROR - Failed to send audio file
+2025-09-26 11:29:01,993 - INFO - Starting audio send process
+2025-09-26 11:29:01,993 - INFO - [62857e0c] Starting fire-and-forget audio upload: Katzencafe.m4a → http://127.0.0.1:8000/api/stt/transcribe/
+2025-09-26 11:29:01,993 - INFO - [62857e0c] File size: 2671.32 KB
+2025-09-26 11:29:01,993 - DEBUG - [62857e0c] Sending POST request to http://127.0.0.1:8000/api/stt/transcribe/
+2025-09-26 11:29:02,001 - ERROR - [62857e0c] Connection error: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/stt/transcribe/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105f44ec0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-09-26 11:29:02,001 - ERROR - Failed to send audio file
+2025-09-26 11:45:43,583 - INFO - Starting audio send process
+2025-09-26 11:45:43,583 - INFO - [76c76663] Starting fire-and-forget audio upload: Katzencafe.m4a → http://127.0.0.1:8000/api/stt/transcribe/
+2025-09-26 11:45:43,583 - INFO - [76c76663] File size: 2671.32 KB
+2025-09-26 11:45:43,583 - DEBUG - [76c76663] Sending POST request to http://127.0.0.1:8000/api/stt/transcribe/
+2025-09-26 11:45:43,588 - ERROR - [76c76663] Connection error: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/stt/transcribe/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106830ec0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-09-26 11:45:43,588 - ERROR - Failed to send audio file
+2025-09-26 11:46:41,460 - INFO - Starting audio send process
+2025-09-26 11:46:41,460 - INFO - [357f4633] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:46:41,460 - INFO - [357f4633] File size: 2671.32 KB
+2025-09-26 11:46:41,460 - DEBUG - [357f4633] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:46:41,611 - INFO - [357f4633] Request completed before timeout: 0.15s
+2025-09-26 11:46:41,612 - INFO - Audio file send process completed
+2025-09-26 11:56:21,344 - INFO - Starting audio send process
+2025-09-26 11:56:21,344 - INFO - [7da162a4] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:56:21,344 - INFO - [7da162a4] File size: 2671.32 KB
+2025-09-26 11:56:21,344 - DEBUG - [7da162a4] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:56:21,463 - INFO - [7da162a4] Request completed before timeout: 0.12s
+2025-09-26 11:56:21,463 - INFO - Audio file send process completed
+2025-09-26 11:59:05,754 - INFO - Starting audio send process
+2025-09-26 11:59:05,754 - INFO - [4038af70] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:59:05,754 - INFO - [4038af70] File size: 2671.32 KB
+2025-09-26 11:59:05,754 - DEBUG - [4038af70] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:59:05,873 - INFO - [4038af70] Request completed before timeout: 0.12s
+2025-09-26 11:59:05,873 - INFO - Audio file send process completed
+2025-09-26 11:59:34,485 - INFO - Starting audio send process
+2025-09-26 11:59:34,485 - INFO - [fbe36f46] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:59:34,485 - INFO - [fbe36f46] File size: 2671.32 KB
+2025-09-26 11:59:34,485 - DEBUG - [fbe36f46] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-26 11:59:34,765 - INFO - [fbe36f46] Request completed before timeout: 0.28s
+2025-09-26 11:59:34,765 - INFO - Audio file send process completed
+2025-09-26 12:01:46,652 - INFO - Starting audio send process
+2025-09-26 12:01:46,652 - INFO - [392762f1] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-26 12:01:46,652 - INFO - [392762f1] File size: 2671.32 KB
+2025-09-26 12:01:46,652 - DEBUG - [392762f1] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-26 12:01:46,941 - INFO - [392762f1] Request completed before timeout: 0.29s
+2025-09-26 12:01:46,941 - INFO - Audio file send process completed
+2025-09-29 09:11:47,304 - INFO - Starting audio send process
+2025-09-29 09:11:47,305 - INFO - [0a19c2ec] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:11:47,305 - INFO - [0a19c2ec] File size: 2671.32 KB
+2025-09-29 09:11:47,305 - DEBUG - [0a19c2ec] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:11:47,658 - INFO - [0a19c2ec] Request completed before timeout: 0.35s
+2025-09-29 09:11:47,659 - INFO - Audio file send process completed
+2025-09-29 09:29:25,978 - INFO - Starting audio send process
+2025-09-29 09:29:25,979 - INFO - [d00ff5cb] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:29:25,979 - INFO - [d00ff5cb] File size: 2671.32 KB
+2025-09-29 09:29:25,979 - DEBUG - [d00ff5cb] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:29:26,513 - INFO - [d00ff5cb] Request sent successfully (timeout as expected): 0.53s
+2025-09-29 09:29:26,513 - INFO - Audio file send process completed
+2025-09-29 09:29:43,056 - INFO - Starting audio send process
+2025-09-29 09:29:43,057 - INFO - [b48c45fd] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:29:43,057 - INFO - [b48c45fd] File size: 2671.32 KB
+2025-09-29 09:29:43,057 - DEBUG - [b48c45fd] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:29:43,581 - INFO - [b48c45fd] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 09:29:43,581 - INFO - Audio file send process completed
+2025-09-29 09:42:33,093 - INFO - Starting audio send process
+2025-09-29 09:42:33,093 - INFO - [d310666f] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:42:33,093 - INFO - [d310666f] File size: 2671.32 KB
+2025-09-29 09:42:33,094 - DEBUG - [d310666f] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 09:42:33,611 - INFO - [d310666f] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 09:42:33,611 - INFO - Audio file send process completed
+2025-09-29 10:04:11,213 - INFO - Starting audio send process
+2025-09-29 10:04:11,213 - INFO - [5c09256a] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:04:11,213 - INFO - [5c09256a] File size: 2671.32 KB
+2025-09-29 10:04:11,213 - DEBUG - [5c09256a] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:04:11,723 - INFO - [5c09256a] Request sent successfully (timeout as expected): 0.51s
+2025-09-29 10:04:11,723 - INFO - Audio file send process completed
+2025-09-29 10:05:21,770 - INFO - Starting audio send process
+2025-09-29 10:05:21,770 - INFO - [2732ab49] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:05:21,770 - INFO - [2732ab49] File size: 2671.32 KB
+2025-09-29 10:05:21,770 - DEBUG - [2732ab49] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:05:22,277 - INFO - [2732ab49] Request completed before timeout: 0.51s
+2025-09-29 10:05:22,278 - INFO - Audio file send process completed
+2025-09-29 10:07:11,865 - INFO - Starting audio send process
+2025-09-29 10:07:11,865 - INFO - [23418373] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:07:11,865 - INFO - [23418373] File size: 2671.32 KB
+2025-09-29 10:07:11,865 - DEBUG - [23418373] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:07:12,326 - INFO - [23418373] Request completed before timeout: 0.46s
+2025-09-29 10:07:12,326 - INFO - Audio file send process completed
+2025-09-29 10:11:12,084 - INFO - Starting audio send process
+2025-09-29 10:11:12,084 - INFO - [51411fe6] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:11:12,084 - INFO - [51411fe6] File size: 2671.32 KB
+2025-09-29 10:11:12,084 - DEBUG - [51411fe6] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 10:11:12,530 - INFO - [51411fe6] Request completed before timeout: 0.45s
+2025-09-29 10:11:12,531 - INFO - Audio file send process completed
+2025-09-29 11:27:45,118 - INFO - Starting audio send process
+2025-09-29 11:27:45,119 - INFO - [804f85d2] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:27:45,119 - INFO - [804f85d2] File size: 2671.32 KB
+2025-09-29 11:27:45,119 - DEBUG - [804f85d2] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:27:45,628 - INFO - [804f85d2] Request sent successfully (timeout as expected): 0.51s
+2025-09-29 11:27:45,628 - INFO - Audio file send process completed
+2025-09-29 11:27:52,787 - INFO - Starting audio send process
+2025-09-29 11:27:52,787 - INFO - [d1c0cb77] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:27:52,788 - INFO - [d1c0cb77] File size: 2671.32 KB
+2025-09-29 11:27:52,788 - DEBUG - [d1c0cb77] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:27:53,303 - INFO - [d1c0cb77] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 11:27:53,303 - INFO - Audio file send process completed
+2025-09-29 11:28:14,866 - INFO - Starting audio send process
+2025-09-29 11:28:14,866 - INFO - [115b60b7] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:28:14,866 - INFO - [115b60b7] File size: 2671.32 KB
+2025-09-29 11:28:14,866 - DEBUG - [115b60b7] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:28:15,383 - INFO - [115b60b7] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 11:28:15,384 - INFO - Audio file send process completed
+2025-09-29 11:28:52,162 - INFO - Starting audio send process
+2025-09-29 11:28:52,163 - INFO - [d18d0cb0] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:28:52,163 - INFO - [d18d0cb0] File size: 2671.32 KB
+2025-09-29 11:28:52,163 - DEBUG - [d18d0cb0] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:28:52,639 - INFO - [d18d0cb0] Request completed before timeout: 0.48s
+2025-09-29 11:28:52,639 - INFO - Audio file send process completed
+2025-09-29 11:33:37,076 - INFO - Starting audio send process
+2025-09-29 11:33:37,076 - INFO - [951be651] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:33:37,076 - INFO - [951be651] File size: 2671.32 KB
+2025-09-29 11:33:37,076 - DEBUG - [951be651] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:33:37,583 - INFO - [951be651] Request sent successfully (timeout as expected): 0.51s
+2025-09-29 11:33:37,583 - INFO - Audio file send process completed
+2025-09-29 11:34:26,932 - INFO - Starting audio send process
+2025-09-29 11:34:26,932 - INFO - [d1aa8081] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:34:26,932 - INFO - [d1aa8081] File size: 2671.32 KB
+2025-09-29 11:34:26,932 - DEBUG - [d1aa8081] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 11:34:27,440 - INFO - [d1aa8081] Request sent successfully (timeout as expected): 0.51s
+2025-09-29 11:34:27,441 - INFO - Audio file send process completed
+2025-09-29 12:43:55,205 - INFO - Starting audio send process
+2025-09-29 12:43:55,207 - INFO - [db7f2b90] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 12:43:55,208 - INFO - [db7f2b90] File size: 2671.32 KB
+2025-09-29 12:43:55,208 - DEBUG - [db7f2b90] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 12:43:55,728 - INFO - [db7f2b90] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 12:43:55,728 - INFO - Audio file send process completed
+2025-09-29 12:46:26,080 - INFO - Starting audio send process
+2025-09-29 12:46:26,080 - INFO - [f02672ec] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 12:46:26,080 - INFO - [f02672ec] File size: 2671.32 KB
+2025-09-29 12:46:26,080 - DEBUG - [f02672ec] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 12:46:26,600 - INFO - [f02672ec] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 12:46:26,600 - INFO - Audio file send process completed
+2025-09-29 12:47:18,933 - INFO - Starting audio send process
+2025-09-29 12:47:18,934 - INFO - [05503716] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 12:47:18,934 - INFO - [05503716] File size: 2671.32 KB
+2025-09-29 12:47:18,934 - DEBUG - [05503716] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 12:47:19,454 - INFO - [05503716] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 12:47:19,455 - INFO - Audio file send process completed
+2025-09-29 13:23:21,431 - INFO - Starting audio send process
+2025-09-29 13:23:21,431 - INFO - [277fe85a] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 13:23:21,431 - INFO - [277fe85a] File size: 2671.32 KB
+2025-09-29 13:23:21,431 - DEBUG - [277fe85a] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 13:23:21,945 - INFO - [277fe85a] Request sent successfully (timeout as expected): 0.51s
+2025-09-29 13:23:21,945 - INFO - Audio file send process completed
+2025-09-29 13:25:14,037 - INFO - Starting audio send process
+2025-09-29 13:25:14,037 - INFO - [b5c08571] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 13:25:14,037 - INFO - [b5c08571] File size: 2671.32 KB
+2025-09-29 13:25:14,038 - DEBUG - [b5c08571] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 13:25:14,556 - INFO - [b5c08571] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 13:25:14,556 - INFO - Audio file send process completed
+2025-09-29 13:58:00,887 - INFO - Starting audio send process
+2025-09-29 13:58:00,887 - INFO - [11a24aa1] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 13:58:00,887 - INFO - [11a24aa1] File size: 2671.32 KB
+2025-09-29 13:58:00,887 - DEBUG - [11a24aa1] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 13:58:01,407 - INFO - [11a24aa1] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 13:58:01,408 - INFO - Audio file send process completed
+2025-09-29 16:24:19,426 - INFO - Starting audio send process
+2025-09-29 16:24:19,426 - INFO - [e5251884] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8001/api/stt/transcribe/
+2025-09-29 16:24:19,426 - INFO - [e5251884] File size: 2671.32 KB
+2025-09-29 16:24:19,426 - DEBUG - [e5251884] Sending POST request to http://localhost:8001/api/stt/transcribe/
+2025-09-29 16:24:19,948 - INFO - [e5251884] Request sent successfully (timeout as expected): 0.52s
+2025-09-29 16:24:19,948 - INFO - Audio file send process completed
+2025-09-29 16:25:20,265 - INFO - Starting audio send process
+2025-09-29 16:25:20,265 - INFO - [40433e30] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8080/transcribe/file
+2025-09-29 16:25:20,265 - INFO - [40433e30] File size: 2671.32 KB
+2025-09-29 16:25:20,265 - DEBUG - [40433e30] Sending POST request to http://localhost:8080/transcribe/file
+2025-09-29 16:25:20,344 - INFO - [40433e30] Request completed before timeout: 0.08s
+2025-09-29 16:25:20,344 - INFO - Audio file send process completed
+2025-09-29 16:29:13,522 - INFO - Starting audio send process
+2025-09-29 16:29:13,523 - INFO - [280ecb91] Starting fire-and-forget audio upload: katzencafe.wav → http://localhost:8080/transcribe/file
+2025-09-29 16:29:13,523 - INFO - [280ecb91] File size: 10282.89 KB
+2025-09-29 16:29:13,523 - DEBUG - [280ecb91] Sending POST request to http://localhost:8080/transcribe/file
+2025-09-29 16:29:13,585 - INFO - [280ecb91] Request completed before timeout: 0.06s
+2025-09-29 16:29:13,585 - INFO - Audio file send process completed
+2025-09-29 16:30:05,627 - INFO - Starting audio send process
+2025-09-29 16:30:05,627 - INFO - [9e2c4a6b] Starting fire-and-forget audio upload: katzencafe.wav → http://localhost:8080/transcribe/file
+2025-09-29 16:30:05,627 - INFO - [9e2c4a6b] File size: 10282.89 KB
+2025-09-29 16:30:05,627 - DEBUG - [9e2c4a6b] Sending POST request to http://localhost:8080/transcribe/file
+2025-09-29 16:30:05,675 - INFO - [9e2c4a6b] Request completed before timeout: 0.05s
+2025-09-29 16:30:05,675 - INFO - Audio file send process completed
+2025-09-29 16:51:23,118 - INFO - Starting audio send process
+2025-09-29 16:51:23,118 - INFO - [b3594f53] Starting fire-and-forget audio upload: Katzencafe.m4a → http://localhost:8080/transcribe/file
+2025-09-29 16:51:23,118 - INFO - [b3594f53] File size: 2671.32 KB
+2025-09-29 16:51:23,118 - DEBUG - [b3594f53] Sending POST request to http://localhost:8080/transcribe/file
+2025-09-29 16:51:23,152 - INFO - [b3594f53] Request completed before timeout: 0.03s
+2025-09-29 16:51:23,152 - INFO - Audio file send process completed
+2025-09-29 18:44:58,179 - INFO - Starting audio send process
+2025-09-29 18:44:58,179 - INFO - [b984b1ae] Starting fire-and-forget audio upload: katzencafe.wav → http://localhost:8080/transcribe/file
+2025-09-29 18:44:58,179 - INFO - [b984b1ae] File size: 10282.89 KB
+2025-09-29 18:44:58,179 - DEBUG - [b984b1ae] Sending POST request to http://localhost:8080/transcribe/file
+2025-09-29 18:44:58,238 - INFO - [b984b1ae] Request completed before timeout: 0.06s
+2025-09-29 18:44:58,238 - INFO - Audio file send process completed
